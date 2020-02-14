@@ -22,3 +22,12 @@ def take_a_number(katz_deli, name)
   line_number = katz_deli.length
   puts "Welcome, #{name}. You are number #{line_number} in line."
 end
+
+def now_serving
+  line_number = katz_deli.length
+  if line_number > 0
+    puts "Currently serving #{katz_deli[line_number].}"
+  else
+    puts "There is nobody weaiting to be served!"
+  end
+end
