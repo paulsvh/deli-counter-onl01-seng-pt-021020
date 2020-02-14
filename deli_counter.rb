@@ -6,7 +6,7 @@ def line(katz_deli)
     loop do
       new_line.push("#{i+1}. #{katz_deli[i]}")
       i += 1
-      if i >+ katz_deli.size
+      if i >= katz_deli.size
         break
       end
   end
