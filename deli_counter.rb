@@ -13,6 +13,6 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
-    puts "The line is currently: #{new_line.join(", ")}"
+    puts "The line is currently: #{new_line.join(" ")}"
   end
 end
