@@ -4,7 +4,7 @@ def line(katz_deli)
     new_line = []
     i = 0
     loop do
-      new_line.push("#{[i+1]}. #{katz_deli[i]}")
+      new_line.push("#{i+1}. #{katz_deli[i]}")
       i += 1
       if i >+ katz_deli.size
         break
